@@ -20,12 +20,3 @@ db.sync({force: false})
 })
 .catch(err => console.log(err))
 
-/* 
-db.sync()
-  .then(() => {
-    console.log("sincronizado con la base de datos");
-    app.listen(3001, () => {
-      console.log("server encendido en puerto 3001");
-    });
-  })
-  .catch(console.error); */
